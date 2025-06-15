@@ -1,0 +1,118 @@
+@charset "utf-8";
+@import "../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.onlinejano_com {
+  background-color: #fff;
+  padding: 0.11rem 0.2rem 0.3rem;
+}
+
+.onlinejano_com .HaloLudo_Com {
+  height: 0.68rem;
+  line-height: 0.68rem;
+  text-align: center;
+  color: #00070e;
+  font-size: 0.28rem;
+  border: 1px solid #48001c;
+  cursor: pointer;
+}
+
+.onlinejano_com .HaloLudo_Com span {
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 1px solid #000;
+  font-weight: 700;
+}
+
+.onlinejano_com .HaloLudo_Com span:last-child {
+  border-right: none;
+}
+
+.onlinejano_com .HaloLudo_Com span.current {
+  color: #fff;
+  background-color: #1b00a0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.onlinejano_com ul li {
+  padding-top: 0.17rem;
+  padding-bottom: 0.17rem;
+  align-items: center;
+}
+
+.onlinejano_com ul li img {
+  display: block;
+  width: 1.18rem;
+  height: 1.18rem;
+  border-radius: 0.18rem;
+}
+
+.onlinejano_com ul li .info {
+  margin: 0 0.28rem 0 0.18rem;
+}
+
+.onlinejano_com ul li .info p {
+  display: block;
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0.22rem;
+}
+
+.onlinejano_com ul li .info .name {
+  font-size: 0.28rem;
+  color: #0f4513;
+  font-weight: 500;
+  line-height: 0.48rem;
+  font-weight: 700;
+}
+
+.onlinejano_com ul li .info .grade {
+  color: #e6e6e6;
+  line-height: 0.32rem;
+}
+
+.onlinejano_com ul li .info .grade span {
+  color: #ff3300;
+  font-weight: 700;
+}
+
+.onlinejano_com ul li .info .txt {
+  color: #ff5c33;
+  line-height: 0.36rem;
+  font-weight: 700;
+  font-size: 0.2rem;
+}
+
+.onlinejano_com ul li .num {
+  display: block;
+  width: 0.26rem;
+  height: 0.58rem;
+  font-weight: 700;
+  font-size: 0.32rem;
+  color: #cecece;
+  line-height: 0.45rem;
+  text-align: center;
+  position: relative;
+  top: 0.35rem;
+  left: 0;
+  margin-right: 0.2rem;
+}
+
+.onlinejano_com ul li .btn {
+  display: block;
+  line-height: 0.55rem;
+  margin: 0 Auto;
+  border-radius: 0.06rem;
+  color: #fff;
+  font-size: 0.24rem;
+  text-align: center;
+  width: 2.05rem;
+  height: 0.55rem;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 0.1rem;
+}

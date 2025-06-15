@@ -1,0 +1,97 @@
+.LatestYonoApp_APK_Banner img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.wrap .webLink {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    font-size: 0.28rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-bottom: 0.1rem;
+    padding-top: 0.1rem;
+    background-image: linear-gradient(to right, rgb(223, 2, 2), rgb(232, 61, 9));
+}
+
+.recomended h2{
+    background-color: #ff3300;
+    font-size:.35rem;
+    text-align:center;
+    margin: .15rem .15rem 0 .15rem;
+    padding: .06rem 0;
+    border-radius:.1rem;
+    border:2px solid #000;
+    font-weight:600;
+    color:#fff;
+}
+
+.latest-yono-app-share-link {
+    background-image: linear-gradient(to right, rgb(113, 45, 0), rgb(33, 69, 90), rgb(33, 69, 90), rgb(113, 45, 0));
+
+}
+
+.telegram {
+    font-weight: bold;
+    background-color:#202c45;
+    color: white;
+    font-size:.3rem;
+    padding: .05rem 0;
+    text-align:center;
+    margin:.15rem;
+    border-radius:.1rem;
+    border:2px solid #000;
+}
+.telegram a{
+    color: white;
+}
+
+.telegram:hover{
+    background-color: #00aaff;
+	color: #ebeaea;
+	-webkit-transform: scale(.99)
+
+}
+
+
+.Halo_Ludo_Com {
+	padding-left: .2rem;
+	padding-right: .2rem;
+	background-color: #fff;
+    font-size: .25rem
+}
+.Halo_Ludo_Com img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.Halo_Ludo_Com p {
+	font-size: .3rem;
+	font-family: Arial, Helvetica, sans-serif;
+    margin-top: .05rem;
+}
+
+.Halo_Ludo_Com h1 {
+    font-size: .4rem;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-weight: 700
+}
+
+.Halo_Ludo_Com h2 {
+    font-size: .3rem;
+	text-align: center;
+	font-weight: 700
+}
+
+.Halo_Ludo_Com h3 {
+    font-size: .22rem;
+	text-align: center;
+	font-weight: 700
+}

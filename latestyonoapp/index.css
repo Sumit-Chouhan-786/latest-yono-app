@@ -1,0 +1,468 @@
+@charset "utf-8";
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+body {
+  line-height: 1.5;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+sup,
+sub {
+  font-size: 100%;
+}
+
+:link,
+:visited,
+ins {
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 0.24rem;
+}
+
+body {
+  margin: 0;
+  font-family: poppins, sans-serif;
+  color: #333;
+  background-color: #ebebeb;
+  position: relative;
+  text-transform: capitalize;
+}
+
+a {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.LatestYonoApps_grow {
+  -moz-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 7.5rem;
+  min-width: 3.2rem;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+.appallrummy_com_star {
+  color: orange;
+}
+
+.btn.allyonogames {
+  background-image: linear-gradient(147deg, #e60808 0%, #e91d1d 100%);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: red;
+  opacity: 0.9;
+  -webkit-transform: scale(0.96);
+}
+
+.allyonoapps_in {
+  position: fixed;
+  margin-right: 10px;
+  top: 50%;
+  margin-top: -100px;
+  -webkit-animation: myfirst 1s infinite linear;
+  animation: myfirst 1s infinite linear;
+}
+
+.allyonoapps_in img {
+  width: 60px;
+  height: 60px;
+}
+
+.allyonoapps_in {
+  right: 0;
+  z-index: 99999;
+}
+
+.icon_allyonogames_i {
+  background-image: url(../img/all-yono-apps_in.html);
+  background-size: 6rem 6.1rem;
+  display: block;
+}
+
+.share {
+  padding: 5px 0;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.about {
+  padding: 10px 0;
+  background: #1b4789;
+  font-size: 0.25rem;
+  font-weight: 700;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.faqh1 {
+  padding: 10px 0;
+  background: purple;
+  font-size: 0.25rem;
+  font-weight: 700;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.allyonogamesfaq {
+  background-color: #777;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.allyonogamesfaq:after {
+  content: "\002B";
+  color: #fff;
+  font-weight: 700;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.allyonogames_com {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 2.15rem;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.allyonogames_com img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.allyonogames_com div {
+  position: absolute;
+  z-index: 1;
+  bottom: -0.04rem;
+  width: 2.82rem;
+  height: 0.4rem;
+  background-color: #fff;
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+}
+
+.latestyonoapp_com_top {
+  background-color: #fff;
+}
+
+.latestyonoapp_com_top li {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+.latestyonoapp_com_top li a {
+  display: block;
+}
+
+.latestyonoapp_com_top li img {
+  display: block;
+  width: 1.24rem;
+  height: 1.24rem;
+  border-radius: 0.24rem;
+  margin: 0 auto;
+}
+
+.latestyonoapp_com_top li p {
+  color: #ababab;
+  font-size: 0.22rem;
+  line-height: 0.42rem;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.latestyonoapp_com_top li .name {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  color: #454545;
+  font-size: 0.26rem;
+  font-weight: 700;
+}
+
+.latestyonoapp_com_top ul li .grade {
+  color: #e6e6e6;
+  line-height: 0.42rem;
+}
+
+.latestyonoapp_com_top ul li .grade span {
+  color: #9a9b9b;
+  font-weight: 700;
+  font-size: 0.19rem;
+  line-height: 0.35rem;
+}
+
+.latestyonoapp_com_top ul li .grade em {
+  color: #ffa709;
+  font-size: 0.24rem;
+}
+
+.latestyonoapp_com_top ul li .grade i {
+  display: inline-block;
+  width: 0.26rem;
+  height: 0.23rem;
+  background-position: -1.91rem -1.69rem;
+  top: 0.04rem;
+  color: #00b00c;
+}
+
+.latestyonoapp_com_top li .btn {
+  display: block;
+  width: 2rem;
+  height: 0.55rem;
+  text-align: center;
+  line-height: 0.55rem;
+  margin: 0.16rem auto 0;
+  border-radius: 0.06rem;
+  color: #fff;
+  font-size: 0.24rem;
+  font-weight: 700;
+}
+
+.latestyonoapp_com_top li:nth-child(2) img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.latestyonoapp_com_top li:nth-child(2) {
+  padding-top: 0.1rem;
+  width: 35%;
+}
+
+.latestyonoapp_com_top li:nth-child(1),
+.latestyonoapp_com_top li:nth-child(3) {
+  padding-top: 0.45rem;
+  width: 32.5%;
+}
+
+.latestyonoapp_com_top li .top1 {
+  width: 0.58rem;
+  height: 0.8rem;
+  background-position: -3.5rem -0.88rem;
+  position: absolute;
+  z-index: 2;
+  top: -0.69rem;
+  left: 50%;
+  margin-left: -0.25rem;
+}
+
+.latestyonoapp_com_top li .top2 {
+  width: 0.57rem;
+  height: 0.8rem;
+  background-position: -4.34rem -0.85rem;
+  position: absolute;
+  z-index: 2;
+  top: -0.4rem;
+  left: 50%;
+  margin-left: -0.25rem;
+}
+
+.latestyonoapp_com_top li .top3 {
+  width: 0.57rem;
+  height: 0.8rem;
+  background-position: -5.19rem -0.84rem;
+  position: absolute;
+  z-index: 2;
+  top: -0.4rem;
+  left: 50%;
+  margin-left: -0.25rem;
+}
+
+.AppAllRummy_Notice_Slider {
+  font-family: Sofia, sans-serif;
+  font-size: 0.25rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #e91a1a;
+  padding-top: 0.1rem;
+  /* font-variant:small-caps; */
+  margin-bottom: 0.1rem;
+}
+
+.LatestRummyUpdate-Com ul li {
+  padding: 16px 16px !important;
+  border: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, yellow, orange);
+  animation: gradientAnimation 1s infinite alternate;
+  margin-bottom: 10px;
+}
+@keyframes gradientAnimation {
+  0% {
+    border-image-source: linear-gradient(to right, yellow, orange);
+  }
+  50% {
+    border-image-source: linear-gradient(to right, orange, red);
+  }
+  100% {
+    border-image-source: linear-gradient(to right, yellow, orange);
+  }
+}
+
+.onlinejano_com ul li .btn {
+  background-image: linear-gradient(
+    to right,
+    #ff8008 0%,
+    #ffc837 51%,
+    #ff8008 100%
+  );
+  transition: all ease-in-out 300ms;
+}
+
+.onlinejano_com ul li .btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background-image: linear-gradient(
+    to top,
+    #ff8008 0%,
+    #ffc837 51%,
+    #ff8008 100%
+  );
+}
+.latestyonoAppcom_logo {
+  object-fit: contain !important;
+}
+.latestyonoapp {
+  color: white !important;
+}
+.grade span {
+  color: #00b00c !important;
+}
+.telegram {
+  transition: all ease-in-out 300ms;
+}
+
+.nav_help{
+  background-color: #202c45;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 6px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+@media (max-width:576px) {
+  .nav_help{
+  background-color: #202c45;
+  color: white;
+  padding: 4px 10px;
+  font-size: 12px;
+  border: transparent;
+  border-radius: 6px;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+}
