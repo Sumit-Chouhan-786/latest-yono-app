@@ -442,6 +442,13 @@ a {
   transition: all ease-in-out 300ms;
 }
 
+.AppLatestRummy_Notice_Slider{
+  background-color: #e91a1a;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
 .nav_help{
   background-color: #202c45;
   color: white;
@@ -466,3 +473,132 @@ a {
   margin-right: 10px;
 }
 }
+
+
+/* top 3 cards */
+
+.top_heading{
+  text-align: center;
+  color: #e60808;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top:30px ;
+}
+    .cardbox-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      padding:30px 10px;
+    }
+
+    .cardbox-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      width: 280px;
+      overflow: hidden;
+        animation: cardGlow 1.5s infinite alternate ease-in-out;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    @keyframes cardGlow {
+  0% {
+    box-shadow: 0 0 10px #009688, 0 0 20px #009688;
+  }
+  100% {
+    box-shadow: 0 0 10px #ff9800, 0 0 20px #ff9800;
+  }
+}
+
+
+    .cardbox-card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 10px 30px #055234;
+    }
+
+    .cardbox-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .cardbox-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .cardbox-title {
+      font-size: 20px;
+      color: #e60808;
+      font-weight: 600;
+    }
+
+    .cardbox-link {
+      color: #009688;
+      text-decoration: none;
+      font-weight: bold;
+      position: relative;
+      display: inline-block;
+      transition: color 0.3s;
+    }
+
+    .cardbox-link::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: #009688;
+      transition: width 0.3s;
+    }
+
+    .cardbox-link:hover::after {
+      width: 100%;
+    }
+
+    .cardbox-link:hover {
+      color: #00695c;
+    }
+    .cardbox-hand {
+  display: inline-block;
+  margin-left: 6px;
+  animation: waveHand 1.5s infinite ease-in-out;
+  transform-origin: 70% 70%;
+}
+
+/* Hand Waving Animation */
+@keyframes waveHand {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  45% { transform: rotate(14deg); }
+  60% { transform: rotate(-4deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@media (max-width:576px) {
+   .cardbox-container {
+      gap: 10px;
+    }
+     .cardbox-title {
+      font-size: 10px;
+      color: #e60808;
+      font-weight: 600;
+    }
+
+     .cardbox-content {
+      padding: 10px;
+    }
+     .cardbox-image {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      display: block;
+    }
+  
+}
+
+
