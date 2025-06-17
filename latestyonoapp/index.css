@@ -537,6 +537,7 @@ a {
     .cardbox-link {
       background-color:  #009688;
       color: white;
+      font-size: 22px;
       border-radius: 4px;
       text-decoration: none;
       font-weight: bold;
@@ -581,6 +582,8 @@ a {
 }
 
 @media (max-width:576px) {
+    .cardbox-link {
+      font-size: 12px;}
    .cardbox-container {
    
       padding:16px 10px;
