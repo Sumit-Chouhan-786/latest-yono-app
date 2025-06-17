@@ -381,7 +381,7 @@ a {
 }
 
 .AppLatestRummy_Notice_Slider{
-  background-color: #e91a1a;
+  background-color: #009688;
   color: white;
   font-weight: bold;
   margin-bottom: 16px;
@@ -500,7 +500,7 @@ a {
     }
 
     .cardbox-link:hover {
-      color: #00695c;
+      color: white;
     }
     .cardbox-hand {
   display: inline-block;
