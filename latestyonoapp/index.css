@@ -465,8 +465,8 @@ a {
   .nav_help{
   background-color: #202c45;
   color: white;
-  padding: 4px 10px;
-  font-size: 12px;
+  padding: 5px 10px;
+  font-size: 14px;
   border: transparent;
   border-radius: 6px;
   margin-top: 4px;
@@ -563,7 +563,6 @@ a {
     }
     .cardbox-hand {
   display: inline-block;
-  margin-left: 6px;
   animation: waveHand 1.5s infinite ease-in-out;
   transform-origin: 70% 70%;
 }
@@ -594,7 +593,7 @@ a {
     }
 
      .cardbox-content {
-      padding: 10px;
+      padding: 12px 2px;
     }
      .cardbox-image {
       width: 100%;
